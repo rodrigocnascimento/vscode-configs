@@ -23,5 +23,16 @@
 			"$2"
 		],
 		"description": "Log output to console"
-	}
+	},
+	"javascript module definition": {
+		"scope": "javascript,typescript",
+		"prefix": "jsm",
+		"body": [
+			"function $1() {",
+			"$2",
+			"};",
+			"module.exports = $1;"
+		],
+		"description": "create a single js module function"
+	},
 }

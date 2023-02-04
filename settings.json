@@ -1,0 +1,75 @@
+{
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "editor.inlineSuggest.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontFamily": "'JetBrains Mono', 'monospaced'",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": true,
+  "search.mode": "newEditor",
+  "editor.renderWhitespace": "all",
+  "workbench.editor.enablePreview": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.scrollback": 10000,
+  "sonarlint.ls.javaHome": "/home/rodrigo/.vscode/extensions/sonarsource.sonarlint_managed-jre/jre/jdk-11.0.15+10-jre",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorCustomizations": {
+    "terminal.selectionBackground": "#dededc",
+    "terminal.selectionForeground": "#000000" // new in v1.68
+  },
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "sonarlint.rules": {
+    "javascript:S3776": {
+      "level": "off"
+    },
+    "php:S1192": {
+      "level": "off"
+    }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "slick-dev",
+      "connectionId": "slick-dev_controltower"
+    }
+  ],
+  "vscode-pets.position": "explorer",
+  "vscode-pets.theme": "castle",
+  "git.confirmSync": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "sonarlint.pathToNodeExecutable": "/home/rodrigo/.nvm/versions/node/v18.13.0/bin/node",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "🪳"
+  ],
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "[python]": {
+    "editor.formatOnType": true
+  }
+}
